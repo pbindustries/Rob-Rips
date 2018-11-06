@@ -69,7 +69,7 @@ const Footer: React.SFC = () => {
     <footer className={`${outer} ${SiteFooter}`}>
       <div className={`${inner} ${SiteFooterContent}`}>
         <section className="copyright">
-          <Link to="/">{config.title}</Link> &copy; 2018
+          <Link to="www.philipbankier.com">PB Industries LLC</Link> &copy; 2018
         </section>
         <SiteFooterNav>
           <Link to="/">Latest Posts</Link>

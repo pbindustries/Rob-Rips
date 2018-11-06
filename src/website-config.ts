@@ -24,8 +24,8 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'Rob\'s Rips',
+  description: 'You\'ll want to read this blog',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   siteUrl: 'https://gatsby-casper.netlify.com',
