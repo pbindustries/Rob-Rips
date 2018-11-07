@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d10885a-b500-4c93-9b58-76420a8b96aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/SiteNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/SiteNav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/SiteNavLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/SiteNavLogo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/a-full-style-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/a-full-style-test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/author.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/author.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/gettysburg-address.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/gettysburg-address.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/purpose-of-education.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/purpose-of-education.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/using-the-ghost-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/using-the-ghost-editor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/welcome.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/website-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,21 +29,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="5" />
-          <entry key="json" value="7" />
+          <entry key="json" value="8" />
           <entry key="md" value="14" />
+          <entry key="png" value="1" />
           <entry key="ts" value="5" />
-          <entry key="tsx" value="23" />
-          <entry key="yaml" value="5" />
+          <entry key="tsx" value="26" />
+          <entry key="yaml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="5" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="6" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="14" />
           <entry key="TypeScript" value="5" />
-          <entry key="TypeScript JSX" value="23" />
-          <entry key="YAML" value="5" />
+          <entry key="TypeScript JSX" value="26" />
+          <entry key="YAML" value="6" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
@@ -69,7 +60,7 @@
           <entry key="json" value="69" />
           <entry key="md" value="41" />
           <entry key="ts" value="20" />
-          <entry key="tsx" value="63" />
+          <entry key="tsx" value="232" />
           <entry key="yaml" value="74" />
         </counts>
       </usages-collector>
@@ -79,7 +70,7 @@
           <entry key="JavaScript" value="53" />
           <entry key="Markdown" value="41" />
           <entry key="TypeScript" value="20" />
-          <entry key="TypeScript JSX" value="63" />
+          <entry key="TypeScript JSX" value="232" />
           <entry key="YAML" value="74" />
         </counts>
       </usages-collector>
@@ -89,19 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/SiteNav.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/header/SiteNavLogo.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -110,49 +92,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AuthorCard.tsx">
+        <entry file="file://$PROJECT_DIR$/src/content/img/ghost-logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1201">
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PostCard.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/header/SiteNav.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="362">
+              <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PostContent.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PostFullFooter.tsx">
+        <entry file="file://$PROJECT_DIR$/src/content/tag.yaml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ReadNextCard.tsx">
+        <entry file="file://$PROJECT_DIR$/src/templates/tags.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-1825">
+              <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,10 +150,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/about.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/website-config.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="52">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -203,9 +188,10 @@
         <option value="$PROJECT_DIR$/src/content/purpose-of-education.md" />
         <option value="$PROJECT_DIR$/src/content/using-the-ghost-editor.md" />
         <option value="$PROJECT_DIR$/src/content/welcome.md" />
-        <option value="$PROJECT_DIR$/src/components/header/SiteNav.tsx" />
         <option value="$PROJECT_DIR$/src/components/Footer.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/about.tsx" />
         <option value="$PROJECT_DIR$/src/components/header/SiteNavLogo.tsx" />
+        <option value="$PROJECT_DIR$/src/components/header/SiteNav.tsx" />
       </list>
     </option>
   </component>
@@ -251,20 +237,13 @@
               <item name="sohrob-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="sohrob-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sohrob-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="sohrob-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sohrob-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sohrob-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sohrob-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -312,21 +291,21 @@
       <workItem from="1541387394861" duration="1675000" />
       <workItem from="1541472469366" duration="130000" />
       <workItem from="1541479741839" duration="19000" />
-      <workItem from="1541542822129" duration="2971000" />
+      <workItem from="1541542822129" duration="5242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4795000" />
+    <option name="totallyTimeSpent" value="7066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1902" y="68" width="904" height="745" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29784825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28878823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -335,7 +314,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46557376" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5934426" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -373,16 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -403,18 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-406" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/tags.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1547">
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/content/tag.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -495,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/SiteNav.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AuthorCard.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1201">
@@ -562,20 +505,60 @@
         <state relative-caret-position="-3166" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/website-config.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="92">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/content/tag.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/tags.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1825">
+          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/SiteNav.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/content/img/ghost-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/SiteNavLogo.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="225">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/website-config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
