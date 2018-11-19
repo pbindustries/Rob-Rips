@@ -1,7 +1,7 @@
 ---
 title: "Gettysburg Address"
 author: Rob
-tags: []
+tags: ["Rips"]
 image: img/demo1.jpg
 date: "1863-11-19T10:00:00.000Z"
 draft: false

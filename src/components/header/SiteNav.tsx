@@ -144,7 +144,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
               <Link to="/">Home</Link>
             </li>
             <li role="menuitem">
-              <Link to="/tags/getting-started/">Rips</Link>
+              <Link to="/tags/rips/">Rips</Link>
             </li>
             {/*<li role="menuitem">*/}
               {/*<Link to="/tags/getting-started/">Categories</Link>*/}

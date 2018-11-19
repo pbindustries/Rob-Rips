@@ -1,3 +1,7 @@
 - id: speeches
   description: Some of the greatest words ever spoken.
   image: img/speeches-cover.jpg
+
+- id: rips
+  description: Some of the Rob's Rips.
+  image: img/speeches-cover.jpg
